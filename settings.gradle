@@ -1,0 +1,2 @@
+include ':xlr_8'
+rootProject.name = "XLR8"
