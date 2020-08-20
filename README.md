@@ -7,6 +7,8 @@ An [OkHttp interceptor][1] which route all requests over QUIC Protocol (HTTP/3).
 - Backward compatibility for non-QUIC servers (HTTP 1 & 2)
 - Require Google mobile services to be installed/enabled on the device 
 
+
+## Usage
 ```kotlin
 val okHttpClient: OkHttpClient = OkHttpClient().newBuilder()
         .addInterceptor(XLR8Interceptor(applicationContext))
