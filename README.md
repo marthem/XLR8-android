@@ -17,6 +17,19 @@ val okHttpClient: OkHttpClient = OkHttpClient().newBuilder()
 
 ## Downloading
 
+Top-level build.gradle:
+
+```groovy
+allprojects {
+	repositories {
+		maven { url 'https://jitpack.io' }
+	}
+}
+
+```
+
+App-level build.gradle:
+
 ```groovy
    dependencies {
       implementation 'com.github.marthem:XLR8-android:1.0.1'
